@@ -1,0 +1,13 @@
+/build/
+/bin/
+/out/
+/Debug/
+/Release/
+/cmake-build-*/
+*.exe
+*.out
+*.app
+*.o
+*.so
+*.dll
+*.dylib
