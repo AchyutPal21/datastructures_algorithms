@@ -130,5 +130,12 @@ int main(int argc, char **argv) {
 
   cout << s2.at(0) << s2[2] << endl;
 
+  cout << "substring value: " << s2.substr(5, s2.length()) << endl;
+  cout << "Find string: " << s2.find("c", 0) << endl;
+  string full_name {""};
+  cout << "Enter you name: ";
+  getline(cin, full_name);
+  cout << "Welcome " << full_name << "!" << endl;
+
   return 0;
 }
