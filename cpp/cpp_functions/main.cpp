@@ -22,6 +22,25 @@ void passByReference(int &num) {
   return;
 }
 
+int sumArray(const std::vector<int> &nums) {
+  int sum {100};
+  for (int acc : nums) {
+    sum += acc;
+  }
+
+  return sum;
+}
+
+int sumArrayStore(const std::vector<int> &nums) {
+  static int sum {0};
+  std::cout << "Previous value" << sum << std::endl;
+  for (int acc : nums) {
+    sum += acc;
+  }
+
+  return sum;
+}
+
 // Function overloading
 void sayHello() {
   std::cout << "Hello!";
@@ -30,6 +49,11 @@ void sayHello() {
 void sayHello(std::string greet) {
   std::cout << greet << std::endl;
   return;
+}
+
+// Inline functions
+inline int add_numbers(int a, int b) {
+  return a + b;
 }
 
 
@@ -42,6 +66,18 @@ int main(int argc, char const *argv[]) {
   std::cout << (&num) << std::endl;
   passByReference(num);
   std::cout << "Calling num from original: " << num << std::endl;
+
+  // sum up by using const
+  std::vector<int> nums {1, 2, 3, 4, 5};
+  std::cout << "Total sum: " << sumArray(nums) << std::endl;
+
+  std::cout << "Prev total sum: " << sumArrayStore(nums) << std::endl;
+  std::cout << "Prev total sum: " << sumArrayStore(nums) << std::endl;
+  std::cout << "Prev total sum: " << sumArrayStore(nums) << std::endl;
+  std::cout << "Prev total sum: " << sumArrayStore(nums) << std::endl;
+  std::cout << "Prev total sum: " << sumArrayStore(nums) << std::endl;
+
+
 
   return 0;
 }
