@@ -1,0 +1,14 @@
+Solved Questions
+
+1. Introduction to Recursion - <Link>
+2. Basic Questions
+  - Print name 5 times
+  - Print linearly form 1 to N
+  - Print from N to 1
+  - Print linearly form 1 to N (by back tracking)
+  - Print from N to 1 (by back tracking)
+3. Parameterized and Functional Recursion
+  - Summation of first N numbers
+    - by parameters way
+    - by functional way
+    - factorial of n
