@@ -12,3 +12,6 @@ Solved Questions
     - by parameters way
     - by functional way
     - factorial of n
+4. More Questions on Recursion
+  - Reverse an array
+  - Check if the give string is palindrome
