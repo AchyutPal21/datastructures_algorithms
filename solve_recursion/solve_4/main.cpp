@@ -15,6 +15,8 @@ void reverseArray(int arr[], int i, int n) {
   reverseArray(arr, i+1, n-1);
 }
 
+// TC: O(n)
+// SC: O(n)
 bool isPalindrome(string &str, int i, int n) {
   if (i >= n/2) {
     return true;

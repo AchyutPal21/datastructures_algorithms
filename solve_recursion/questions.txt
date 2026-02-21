@@ -1,17 +1,32 @@
 Solved Questions
 
 1. Introduction to Recursion - <Link>
+
 2. Basic Questions
   - Print name 5 times
   - Print linearly form 1 to N
   - Print from N to 1
   - Print linearly form 1 to N (by back tracking)
   - Print from N to 1 (by back tracking)
+
 3. Parameterized and Functional Recursion
   - Summation of first N numbers
     - by parameters way
     - by functional way
     - factorial of n
+
 4. More Questions on Recursion
   - Reverse an array
   - Check if the give string is palindrome
+
+5. Multiple Recursion Call
+  - Fibonacci number [can use DP]
+
+6. Recursion on Subsequences ***
+  Desc {
+    Add current index in container and make call
+    Remove the last added element from container
+    Make call this time with the current index not in container
+  }
+
+7.
